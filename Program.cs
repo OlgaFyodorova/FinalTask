@@ -1,7 +1,7 @@
 ﻿/* Написать программу, которая из имеющегося массива строк формирует новый массив из строк, 
 длина которых меньше, либо равна 3 символам. */
 
-string[] array1 = new string[7] {"hello", "2", "world", "computer science", "cat", "dog", "box"};
+string[] array1 = new string[7] {"hello", "2", "world", "computer", "cat", "dog", "box"};
 string[] array2 = new string[array1.Length];
 
 void Result(string[] array1, string[] array2)
